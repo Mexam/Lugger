@@ -1,0 +1,4 @@
+Sep 25 15:41:36 DEBUG - This is the fitst test for debug!
+Sep 25 15:42:03 INFO - And this is the fitst test for info function!
+Sep 25 15:42:30 WARNING - Here we go, warning function!
+Sep 25 15:50:21 ERROR - And the last one, error function!
