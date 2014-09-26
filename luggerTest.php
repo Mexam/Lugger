@@ -3,13 +3,18 @@
 	// include lugger src file
 	require_once(dirname(__FILE__)."/src/Lugger.php");
 	
-	// create an instance of class
+	
+	
+	/* create an instance of class
+	* constructor with custom configuration; separator and offMode :
+	* $lugger = new \Lugger\Log('logfile.txt', ', ', false);	
+	*/
 	$lugger = new \Lugger\Log('logfile.txt');
 	
-	// constructor with custom configuration; separator and offMode
-	//$lugger = new \Lugger\Log('logfile.txt', ', ', false);
+	
 	
 	/*
+	* method list:
 	* error
 	* info
 	* debug
